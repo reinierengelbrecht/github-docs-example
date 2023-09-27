@@ -101,8 +101,8 @@ GitHub extends the functionality of Markdown tables to provide more alignment an
 
 ![pipe](https://github.com/reinierengelbrecht/github-docs-example/assets/58253566/63a7e247-8ffb-42cb-a8bd-1db3b1bff733)
 
-
-## References
+[Secret Window Hidden Garden](secret-windows/hidden-garden.md)
+## External References
 
 - [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 - [Basic writing and formatting syntax (Github Flavored Markdown)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
