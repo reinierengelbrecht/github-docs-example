@@ -1,6 +1,6 @@
 # Writing Good Documentation
 
-## Step 1 - Useing Codeblocks.
+## Step 1 - Using Codeblocks.
 
 Codeblocks in markdown make it very easy for tech people to **copy, paste and share** code.
 A good _Cloud Engineer_ uses Clodeblocks whenever possible
@@ -44,7 +44,7 @@ person1.introduce
 
 Good Cloud Engineers use codeblocks for both Code and Errors that appear in the console.
 
-> Here is an example of using codeblock for an error that appears in bash.
+> Here is an example of using codeblocks for an error that appears in bash.
 
 ```bash
 ZeroDivisionError: divided by 0
@@ -56,12 +56,50 @@ ZeroDivisionError: divided by 0
 
 ## Step 3 - Use Github Flavored Markdown Task Lists
 
-Github extends Markdown to have a list where you can check off items. <sup>[1]</sup>
+Github extends Markdown to have a list where you can check off items. [<sup>[1]</sup>](#references)
+
+- [x] Finish Step 1
+- [ ] Finish Step 2
+- [x] Finish Step 3
+- [x] Finish Step 4
+- [x] Finish Step 5
+
+## Step 4 - Use Emojis (Optional)
+
+GitHub Flavored Markdown (GFM) supports emoji shortcodes [<sup>[2]</sup>](#references)
+
+Here are some examples:
+
+| Name | Shortcode | Emoji |
+| --- | --- | --- |
+| Cloud | `:cloud:`| :cloud: |
+| Zipper Mouth Face | `:zipper_mouth_face:`| :zipper_mouth_face: |
+| Grimacing | `:grimacing:`| :grimacing: |
+| Laughing | `:laughing:`| :laughing: |
+| Zany Face | `:zany_face:`| :zany_face: |
+
+## Step 5 - How to create a table
+
+You can use the following markdown format to create tables. [<sup>[3]</sup>](#references)
+
+```markdown
+| Name | Shortcode | Emoji |
+| --- | --- | --- |
+| Cloud | `:cloud:`| :cloud: |
+```
+GitHub extends the functionality of Markdown tables to provide more allignment and table cell formatting options.
+
+- The pipe key can be found on the keyboard as per the picture below, again this depends on your keyboard layout.
+
+![pipe](https://github.com/reinierengelbrecht/github-docs-example/assets/58253566/63a7e247-8ffb-42cb-a8bd-1db3b1bff733)
+
 
 ## References
 
 - [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 - [Basic writing and formatting syntax (Github Flavored Markdown)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
-- [GFM Task lists](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists) <sup>[1]</sup>
+- [GFM - Task lists](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists) <sup>[1]</sup>
+- [GFM - Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet) <sup>[2]</sup>
+- [GFM - Tables (with extensions)](https://github.github.com/gfm/#tables-extension-) <sup>[3]</sup>
 
   
