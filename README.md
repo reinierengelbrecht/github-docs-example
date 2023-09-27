@@ -9,7 +9,7 @@ Because it allows others to copy and paste their code to replicate or research i
 
 In order to use codeblocks in markdown you need to use backticks `
 
-```
+```ruby
 class Person
   attr_accessor :name, :age, :email
 
@@ -33,3 +33,35 @@ person1.age = 31
 # Call the introduce method
 person1.introduce
 ```
+
+
+- Make note of where the backtick button is located.
+- It should appear above the TAB key.
+- But it may vary on your keyboard type.
+
+
+![backtick](https://github.com/reinierengelbrecht/github-docs-example/assets/58253566/141b7052-06ab-4baa-a391-8d00d3b86210)
+
+Good Cloud Engineers use codeblocks for both Code and Errors that appear in the console.
+
+> Here is an example of using codeblock for an error that appears in bash.
+
+```bash
+ZeroDivisionError: divided by 0
+  from (irb):2:in `/'
+  from (irb):5:in `divide_by_zero'
+  from (irb):8
+  from /usr/bin/irb:11:in `<main>'
+```
+
+## Step 3 - Use Github Flavored Markdown Task Lists
+
+Github extends Markdown to have a list where you can check off items. <sup>[1]</sup>
+
+## References
+
+- [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+- [Basic writing and formatting syntax (Github Flavored Markdown)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
+- [GFM Task lists](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists) <sup>[1]</sup>
+
+  
