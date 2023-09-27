@@ -54,19 +54,27 @@ ZeroDivisionError: divided by 0
   from /usr/bin/irb:11:in `<main>'
 ```
 
+## Step 2 - How to take screenshots
+
+A screenshot is when you capture a part of your screen from your laptop, desktop or phone
+
+This is not to be confused with taking a photo with your phone
+
+
+
 ## Step 3 - Use Github Flavored Markdown Task Lists
 
-Github extends Markdown to have a list where you can check off items. [<sup>[1]</sup>](#references)
+Github extends Markdown to have a list where you can check off items. [^1]
 
 - [x] Finish Step 1
-- [ ] Finish Step 2
+- [x] Finish Step 2
 - [x] Finish Step 3
 - [x] Finish Step 4
 - [x] Finish Step 5
 
 ## Step 4 - Use Emojis (Optional)
 
-GitHub Flavored Markdown (GFM) supports emoji shortcodes [<sup>[2]</sup>](#references)
+GitHub Flavored Markdown (GFM) supports emoji shortcodes [^2]
 
 Here are some examples:
 
@@ -80,16 +88,16 @@ Here are some examples:
 
 ## Step 5 - How to create a table
 
-You can use the following markdown format to create tables. [<sup>[3]</sup>](#references)
+You can use the following markdown format to create tables. [^3]
 
 ```markdown
 | Name | Shortcode | Emoji |
 | --- | --- | --- |
 | Cloud | `:cloud:`| :cloud: |
 ```
-GitHub extends the functionality of Markdown tables to provide more allignment and table cell formatting options.
+GitHub extends the functionality of Markdown tables to provide more alignment and table cell formatting options.
 
-- The pipe key can be found on the keyboard as per the picture below, again this depends on your keyboard layout.
+- The pipe key can be found on the keyboard as shown in the picture below, again this depends on your keyboard layout.
 
 ![pipe](https://github.com/reinierengelbrecht/github-docs-example/assets/58253566/63a7e247-8ffb-42cb-a8bd-1db3b1bff733)
 
@@ -98,8 +106,8 @@ GitHub extends the functionality of Markdown tables to provide more allignment a
 
 - [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 - [Basic writing and formatting syntax (Github Flavored Markdown)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
-- [GFM - Task lists](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists) <sup>[1]</sup>
-- [GFM - Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet) <sup>[2]</sup>
-- [GFM - Tables (with extensions)](https://github.github.com/gfm/#tables-extension-) <sup>[3]</sup>
+[^1]: [GFM - Task lists](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists)
+[^2]: [GFM - Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet)
+[^3]: [GFM - Tables (with extensions)](https://github.github.com/gfm/#tables-extension-)
 
   
